@@ -1,7 +1,7 @@
 # Creates a base ubuntu image with serf and dnsmasq
 FROM ubuntu:15.04
 
-MAINTAINER KiwenLau <kiwenlau@gmail.com>
+MAINTAINER Cloudwick Nalin.garg@cloudwick.com
 
 RUN apt-get update && \
 apt-get install -y unzip curl dnsmasq
